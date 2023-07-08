@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --light_green_color:#B6F6A1;
+    --black:#263238;
+    --deep_green_color:#3AAC16;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    width: 100%;
+}
+
+.foreground{
+    color:var(--deep_green_color);
+}
+a{
+    color:var(--black);
+    font-size: 1.5rem;
+    margin: .5rem;
+    text-decoration: none;
+}
+a:hover,a:active{
+    color:var(--black);
+    font-size: 1.5rem;
+    margin: .5rem;
+    text-decoration: none;
+}
+.nav_btn{
+    background-color: var(--deep_green_color);
+    padding: .5rem 1.2rem;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 7px;
+}
+.nav_btn2{
+    background-color: white;
+    padding: .5rem 1.2rem;
+    color: var(--deep_green_color);
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 7px;
+}
+.box{
+    border: 2px solid var(--deep_green_color);
+    padding: 1rem ;
+    border-radius: 10px;
+}
+p{
+    font-size: 1.4rem;
+}
+.g-button{
+    color:var(--black);
+    border: 1px solid var(--deep_green_color);
+    padding: .3rem 1.2rem;
+    background-color: white;
+    border-radius: 6px;
+}
+.app-button{
+    color:white;
+    /* border: 2px solid var(--deep_green_color); */
+    padding: .3rem 1.2rem;
+    background-color: var(--black);
+    border-radius: 6px;
+    border: none;
+}
+.app2-button{
+    color:white;
+    /* border: 2px solid var(--deep_green_color); */
+    padding: .3rem 1.2rem;
+    background-color: var(--deep_green_color);
+    border-radius: 6px;
+    border: none;
+}
+header{
+    background-color: rgba(241, 240, 240, 0.425);
+    position: relative;
+}
+.holder{
+    position: relative;
+}
+.holder-2{
+    position: relative;
+}
+.comment{
+    position: absolute;
+    top: 53%;
+    left: 40%;
+    background-color: #3AAC16;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.second-container{
+    background-image: url('../images/WhatsApp\ Image\ 2023-07-06\ at\ 11.05.23\ PM\ \(1\).jpeg');
+    width: 100%;
+}
+.green_box{
+    background-image: url('../images/WhatsApp\ Image\ 2023-07-06\ at\ 11.05.23\ PM\ \(2\).jpeg');
+    background-size: contain;
+    padding: 1rem;
+  width: 75%;
+   
+    border-radius: 10px;
+}
+.three-circle{
+    border:7px solid var(--deep_green_color);
+    font-size: 1.6rem;
+    background-color: white;
+   padding: .6rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -4rem;
+    z-index: 60;
+}
+.icon{
+    margin: .6rem;
+    color: #3AAC16;
+}
+input{
+    width: 100%;
+    padding: .7rem;
+    margin-top: .5rem;
+    border: 2px solid #3AAC16 ;
+    border-radius: 7px;
+    font-size: 1.6rem;
+}
+.footer{
+    background: url(../images/WhatsApp\ Image\ 2023-07-06\ at\ 11.05.23\ PM\ \(2\).jpeg);
+    /* padding: 4rem; */
+}
+input:focus,input:hover,input:active{ 
+     border: 2px solid #3AAC16 ;
+    }
+
+#ver_navbar{
+    width: 0px;
+    height: 100%;
+    background-color: #3AAC16;
+    position: fixed;
+    top:0%;
+    right: 0%;
+    z-index: 99;
+    box-shadow:none;
+    color: white;
+    padding: 0rem ;
+
+}
+.ver_navbar1 >a{
+    display: block;
+    color: white;
+    margin-bottom: .5rem  ; 
+    /* padding:.6rem; */
+    
+}
+
+@media screen and (max-width: 768px) {
+    .three-circle{
+        font-size: 1rem;
+    }
+    .comment{
+        font-size: .7rem;
+        padding: .5rem;
+        top:52%;
+    }
+    .green_box{
+        width: 100%;
+        border-radius: 0%;
+    }
+    .g-button{
+        color:var(--black);
+        border: 1px solid var(--deep_green_color);
+        padding: .3rem .9rem;
+        background-color: white;
+        border-radius: 6px;
+    }
+    .up_move{
+        margin-top: -2rem;
+    }
+    .app-button{
+        color:white;
+        /* border: 2px solid var(--deep_green_color); */
+        padding: .3rem 1rem;
+        background-color: var(--black);
+        border-radius: 6px;
+    }
+    .app2-button{
+        color:white;
+        /* border: 2px solid var(--deep_green_color); */
+        padding: .3rem 1rem;
+        background-color: var(--deep_green_color);
+        border-radius: 6px;
+    }
+}
